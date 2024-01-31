@@ -1,4 +1,4 @@
-# Estudos de Selenium em Python
+# Estudos e Aplicações de Selenium em Python
 
 Este repositório contém exemplos e exercícios de estudo para a automação de testes web usando Selenium com Python.
 
