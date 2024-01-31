@@ -14,3 +14,11 @@ Instale as dependências usando o seguinte comando:
 
 ```bash
 pip install selenium
+```
+---
+## Projetos
+- [Get Sites](https://github.com/1caue/Selenium/tree/master/Mini-Projetos/Get%20Sites):
+- [Log Email](https://github.com/1caue/Selenium/tree/master/Mini-Projetos/Log%20Email):
+- [Log Site](https://github.com/1caue/Selenium/tree/master/Mini-Projetos/Log%20Site):
+- [Rastreio](https://github.com/1caue/Selenium/tree/master/Mini-Projetos/Rastreio):
+- [Sauce Labs Training](https://github.com/1caue/Selenium/tree/master/Mini-Projetos/Sauce%20Labs%20Training):
