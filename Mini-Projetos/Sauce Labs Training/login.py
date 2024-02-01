@@ -65,16 +65,16 @@ pc = driver.find_element(By.ID, 'postal-code')
 pc.send_keys('45570')
 
 # Clicando no "Continue" para ir no para finalização
-capture = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Testes\Sauce Labs Training\continue.png')
+capture = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Mini-Projetos\Sauce Labs Training\continue.png')
 pyautogui.click(capture, duration=0.3)
 pyautogui.scroll(-500)
 
 # Finalizando compra
-finish = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Testes\Sauce Labs Training\finish.png')
+finish = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Mini-Projetos\Sauce Labs Training\finish.png')
 pyautogui.click(finish, duration=0.3)
 
 # Voltando para home
-back_home = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Testes\Sauce Labs Training\back_home.png')
+back_home = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\Selenium\Mini-Projetos\Sauce Labs Training\back_home.png')
 pyautogui.click(back_home, duration=0.3)
 
 time.sleep(180)

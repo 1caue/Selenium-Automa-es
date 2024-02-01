@@ -24,3 +24,5 @@ button = driver.find_element(By.CLASS_NAME, 'login100-form-btn')
 button.click()
 
 time.sleep(7200)
+
+'Entrando em sites com o Pyautogui e Selenium'

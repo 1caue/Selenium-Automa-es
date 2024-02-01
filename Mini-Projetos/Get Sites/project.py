@@ -22,3 +22,5 @@ time.sleep(1)
 pyautogui.click(129, 10, button='left')
 
 time.sleep(7200)
+
+'Abrindo abas Simultâneas Com o Pyautogui e Selenium'

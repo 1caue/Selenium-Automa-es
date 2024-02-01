@@ -19,3 +19,5 @@ p2 = driver.find_element(By.XPATH, '//*[@id="page"]/main/section/div/div[1]/form
 p2.click()
 
 time.sleep(7200)
+
+'Script criado com o intuito de Entrar em um site de rastreio de pedidos, Digitar o código do produto e Rastrear o mesmo'
