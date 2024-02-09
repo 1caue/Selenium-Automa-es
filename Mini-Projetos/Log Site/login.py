@@ -7,17 +7,20 @@ path = 'chromedriver.exe'
 chrome_service = Service(path)
 chrome_options = webdriver.ChromeOptions()
 
+login = input('Digite o Email: ')
+senha = input('Digite a Senha: ')
+
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 driver.get('https://colorlib.com/etc/lf/Login_v1/index.html')
 pyautogui.hotkey('win', 'up')
 
 log = driver.find_element(By.NAME, 'email')
-log.send_keys('caue@gmail.com')
+log.send_keys(login)
 time.sleep(0.5)
 
 password = driver.find_element(By.NAME, 'pass')
-password.send_keys('1234')
+password.send_keys(senha)
 time.sleep(0.5)
 
 button = driver.find_element(By.CLASS_NAME, 'login100-form-btn')
